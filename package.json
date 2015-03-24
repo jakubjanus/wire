@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "Jakub Janus",
+    "Bartosz Małecki",
+    "Piotr Nowikow"
+  ],
+  "name": "wire",
+  "description": "Node postgresql orm",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jakubjanus/wire.git"
+  },
+  "main": "./wire.js",
+  "dependencies": {
+    "pg": "3.6",
+    "underscore": "1.7.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/jakubjanus/wire/issues"
+  },
+  "homepage": "https://github.com/jakubjanus/wire",
+  "scripts": {
+    "test": "wire"
+  },
+  "keywords": [
+    "wire",
+    "postres",
+    "orm"
+  ],
+  "author": "Jakub Janus",
+  "license": "MIT"
+}
